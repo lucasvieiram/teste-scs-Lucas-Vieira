@@ -54,7 +54,7 @@ body {
     font-size: 100.959px;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 305.939px */
+    line-height: 100%; 
     letter-spacing: 24.475px;
 }
 .iconUser{
@@ -64,30 +64,41 @@ body {
     margin: 40px;
     width: 90px;
     height: 30px;
+   
+}
+.secund{
+    padding-top: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
 }
 .card-container {
+    padding-top: 0;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
     align-items: center;
-    height: 100vh;
 }
 
 .card {
     width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
 }
 
 .card img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 50%;
     margin-bottom: 15px;
 }
