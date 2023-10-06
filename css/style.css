@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@400;500;600;700;800&display=swap');
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url(../img/bg-mustang.jpg);
-    background-size: cover;
+    
 }
-
+.first{
+    padding-top: 0;
+    background-image: url("../img/bg-mustang.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
 .navbar {
-    background-color: transparent;
+    background-color: transparent!important;
     display: flex;
-    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 7px 8px;
@@ -22,12 +31,13 @@ body {
 }
 
 .nav-links {
-    
+    margin-top: 20px;
     margin-left: 50px;
     float: left;
 }
 
 .navbar a {
+    margin-top: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
     color: white;
@@ -37,22 +47,47 @@ body {
     text-decoration: none;
 }
 
-.h1 {
+.content, h1 {
     color: #EBEBEB;
-    font-family: Bebas Kai;
-    font-size: 203.959px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 100.959px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 305.939px */
+    line-height: 100%; /* 305.939px */
     letter-spacing: 24.475px;
-    width: 781.845px;
-    height: 223.632px;
 }
-.entrar-user      {
+.iconUser{
     background-color: transparent;
     border-radius: 30px;
     color: white ;
     margin: 40px;
     width: 90px;
     height: 30px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
