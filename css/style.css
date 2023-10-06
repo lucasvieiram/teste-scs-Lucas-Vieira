@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(../img/bg-mustang.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 8px;
+    padding-top: none;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.logo img {
+    height: 50px; /* Ajuste conforme o tamanho da sua logo */
+}
+
+.nav-links {
+    
+    margin-left: 50px;
+    float: left;
+}
+
+.navbar a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    margin-left: 160px;
+    text-decoration: none;
+}
+
+.h1 {
+    color: #EBEBEB;
+    font-family: Bebas Kai;
+    font-size: 203.959px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 305.939px */
+    letter-spacing: 24.475px;
+    width: 781.845px;
+    height: 223.632px;
+}
+.entrar-user      {
+    background-color: transparent;
+    border-radius: 30px;
+    color: white ;
+    margin: 40px;
+    width: 90px;
+    height: 30px;
+}
